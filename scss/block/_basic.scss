@@ -30,7 +30,10 @@
             font-size: 28px;
         }
     }
-
+    &__title{
+        @include basic__title;
+    }
+    
     &__right {
         margin-top: 80px;
         display: grid;

@@ -8,3 +8,66 @@
     padding: 22px 56px;
     margin-top: 50px;
 }
+
+@mixin title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+    max-width: 446px;
+    width: 100%;
+    text-align: center;
+    font-size: 56px;
+
+    @media screen and (min-width: 500px) {
+        font-size: 56px !important;
+    }
+
+    @media screen and (min-width: 320px) {
+        font-size: 28px;
+    }
+}
+
+@mixin provide__title {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (min-width: 320px) {
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: 500px) {
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        font-size: 46px;
+    }
+}
+
+@mixin basic__title {
+    color: #282B22;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 320px) {
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: 500px) {
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        font-size: 46px;
+    }
+}
